@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function utils() {
+export default function Utils() {
   const getMoviesByName = async (inputString) => {
     const apiKey = '';
     const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&t=${inputString}`);
@@ -14,6 +14,8 @@ export default function utils() {
     console.log(jsonResponse);
   }
   return (
-    <div></div>
+    <div>
+        
+    </div>
   )
 }
